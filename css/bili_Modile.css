@@ -1,0 +1,89 @@
+.index__partition__src-partition{
+    background-color:#f4f4f4;
+}
+.index__topArea__src-commonComponent-topArea-{
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    position: fixed;
+    z-index: 7;
+    top:0;
+    width:100%;
+    height:1.32267rem;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: .27733rem 0;
+    background-color:#fff;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.index__logo__src-commonComponent-topArea-{
+    display: block;
+    margin-left:.768rem;
+    width:2.64533rem;
+}
+.index__logo__src-commonComponent-topArea- svg{
+    position: relative;
+    display:block;
+    width:100%;
+    margin:auto;
+    color:transparent;
+}
+.index__searchIcon__src-commonComponent-topArea-{
+    margin-left: auto;
+    display: block;
+    width:1.024rem;
+    height:1.024rem;
+    margin-right:.93867rem;
+    color:hsla(0,0%,100%,0);
+}
+.index__searchIcon__src-commonComponent-topArea- p{
+    color:hsla(0, 0%, 100%, 0);
+    height:0;
+}
+p{
+    max-height: 999999px;
+}
+.index__topArea__src-commonComponent-topArea- a.index__searchIcon__src-commonComponent-topArea- .index__icon__src-commonComponent-topArea- {
+    display:block;
+    width:100%;
+    height:100%;
+    fill:#aaa;
+}
+.index__mySpace__src-commonComponent-topArea-{
+    display:block;
+    width:1.024rem;
+    height:1.024rem;
+    margin-right: .512rem;
+    position: relative;
+}
+.index__mySpace__src-commonComponent-topArea- svg{
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius: 50%;
+}
+.index__mySpace__src-commonComponent-topArea- img{
+    border-radius: 50%;
+    position: relative;
+    display:block;
+    width:1.024rem;
+    height:1.024rem;
+}
+.index__openAppBtn__src-commonComponent-topArea-{
+    display:block;
+    margin-right: .512rem;
+    width:3.41333rem;
+    height:1.024rem;
+    border:.02133rem solid #fb7299;
+    border-radius: .17067rem;
+    background-color:#fb7299;
+}
+.index__openAppBtn__src-commonComponent-topArea- p{
+    font-size: .55467rem;
+    line-height: 1.06667rem;
+    text-align:center;
+    color:#fff;
+    
+}
