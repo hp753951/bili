@@ -85,5 +85,187 @@ p{
     line-height: 1.06667rem;
     text-align:center;
     color:#fff;
+}
+p{
+    max-height:999999px;
+}
+.index__partBox__src-partition-zone-{
+    position:fixed;
+    width: 100%;
+    top:1.856rem;
+    z-index:5;
+    transform:translateZ(0);
+    backface-visibility: hidden;/*backface-visibility 属性定义当元素不面向屏幕时是否可见。*/
+    -webkit-perspective:1000;/*CSS3 3D transform视角属性perspective*/
+}
+.index__partBox__src-partition-zone- .index__firstContainer__src-partition-zone-{
+position: relative;
+z-index:2;
+width:100%;
+height: 1.87733rem;
+background-color:#fff;
+}
+.index__partBox__src-partition-zone- .index__firstContainer__src-partition-zone- .index__pagesContainer__src-partition-zone-{
+    position: relative;
+    width:85%;
+    padding-top:.256rem;
+    overflow:hidden;
+}
+.index__partBox__src-partition-zone- .index__firstContainer__src-partition-zone- .index__pagesContainer__src-partition-zone- .index__scrollContainer__src-partition-zone-{
+    position: relative;
     
+    height:1.87733rem;
+    white-space: nowrap;/*属性设置如何处理元素内的空白。文本不会换行，文本会在在同一行上继续，直到遇到 <br> 标签为止。*/
+    overflow-x:scroll;/*裁剪 div 元素中内容的左/右边缘 - 如果溢出元素的内容区域的话：裁剪内容 - 提供滚动机制。*/
+  
+}
+.index__tab__src-partition-zone-tab- {
+    display:inline-block;
+    background-color:#fff;
+    padding:0 .74667rem;
+}
+.index__tab__src-partition-zone-tab- p{
+    width:1.36533rem;
+    font-size:.59733rem;
+    line-height:1.28rem;
+    text-align: center;
+    color:#757575;
+    border-bottom:.08533rem solid #fff;
+
+}
+.index__tab__src-partition-zone-tab-.index__curTab__src-partition-zone-tab- p{
+    color:#fb7299;
+    border-bottom:.08533rem solid #fb7299;
+}
+.index__partBox__src-partition-zone- .index__firstContainer__src-partition-zone- .index__switchContainer__src-partition-zone-{
+    position: absolute;
+    top:0;
+    width:1.38667rem;
+    height:1.87733rem;
+    right:.768rem;
+}
+.index__partBox__src-partition-zone- .index__firstContainer__src-partition-zone- .index__switchContainer__src-partition-zone- .index__icon__src-partition-zone-{
+    display: block;
+    width:.68267rem;
+    height:1.87733rem;
+    margin:auto;
+    fill:#aaa;
+}
+.index__partBox__src-partition-secondZone-, .index__partBox__src-partition-secondZone- .index__pagesContainer__src-partition-secondZone-{
+    position: relative;
+    width:100%;
+    overflow:hidden;
+}
+.index__partBox__src-partition-secondZone-{
+    background-color:#f9f9f9;
+    height:1.87733rem;
+    z-index:1;
+    margin-top:-.02133rem;
+    transition: transform .5s;
+    -webkit-transition: transform .5s;
+
+}
+.index__partBox__src-partition-secondZone- .index__pagesContainer__src-partition-secondZone- .index__scrollContainer__src-partition-secondZone-{
+    overflow-x:scroll;
+    overflow-y:hidden;
+    white-space: nowrap;
+    padding-left:.896rem;
+    padding-bottom:.21333rem;
+}
+.index__curTab__src-partition-secondZone-tab-{
+    display: inline-block;
+    margin-right:1.024rem;
+}
+.index__curTab__src-partition-secondZone-tab- p{
+    font-size:.59733rem;
+    line-height:1.87733rem;
+    text-align: center;
+    color:#fb7299;
+}
+.index__tab__src-partition-secondZone-tab-{
+    display:inline-block;
+    margin-right:1.024rem;
+}
+.index__tab__src-partition-secondZone-tab- p{
+    font-size:.59733rem;
+    line-height:1.87733rem;
+    text-align:center;
+    color:#757575;
+}
+.index__partition__src-partition .index__line__src-partition-{
+    position: relative;
+    width:100%;
+    padding-top:5.632rem;
+    height:.02133rem;
+    border-bottom:.02133rem solid #ccc;
+    
+}
+.index__banner__src-home-slider-, .swipe{
+    position: relative;
+    height:4.69333rem;
+    border-radius:.34133rem;
+}
+.index__banner__src-home-slider-{
+    padding:0 .512rem;
+    margin:auto;
+    background-image: url(http://s1.hdslb.com/bfs/static/mult/images/tv.png);
+    background-position: 5.65333rem 3.75467rem;
+    background-size:4.69333rem 4.69333rem;
+    background-repeat: no-repeat;
+    background-color:#fff;
+}
+.index__banner__src-home-slider-, .swipe{
+    position: relative;
+    height:4.69333rem;
+    border-radius: .34133rem;
+}
+.swipe{
+    overflow:hidden;
+    width:100%
+}
+.swipe-wrap{
+overflow: hidden;
+position: relative;
+}
+.swipe-wrap>a{
+    position: relative;
+    display: block;
+    float: left;
+    width: 16rem;
+    height:4.69333rem;
+    margin:auto;
+}
+.swipe-wrap>a img{
+    display:block;
+    position: relative;
+    width:100%;
+    height:100%;
+    color:transparent;
+}
+.swipe .swipe-btn-wrapper{
+  position:absolute;
+    left:0;
+    bottom:.192rem;
+    z-index:0;
+    width:100%;
+    text-align: center;
+    height: 0.552rem;
+    line-height:0.552rem;
+}
+.swipe .swipe-btn-wrapper .swipe-btn-list{
+    background-color:rgba(0, 0, 0, .5);
+    border-radius: .21333rem;
+    padding:0 .32rem;
+    display:inline-block;
+}
+.swipe .swipe-btn-wrapper .swipe-btn-list a{
+    width:.21333rem;
+    height:.21333rem;
+    float:left;
+    background-color:#fff;
+    border-radius:.10667rem;
+    margin:.10667rem!important;
+}
+.swipe .swipe-btn-wrapper .swipe-btn-list a.on{
+background-color:#de698c;
 }
